@@ -8,14 +8,6 @@ import work6 from "../assets/work6.png"
 
 export const navLinks = [
     {
-      id: "about",
-      title: "About us",
-    },
-    {
-      id: "services",
-      title: "Services",
-    },
-    {
       id: "portfolio",
       title: "Portfolio",
     },
