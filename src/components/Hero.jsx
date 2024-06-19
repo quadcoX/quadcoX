@@ -16,7 +16,7 @@ const Hero = () => (
     </div>
     <div className='btn-center hero-btn'>
       <button className='btn'>
-        <Link className="btn-link" to="/touch">Reach Us</a>
+        <Link className="btn-link" to="/touch">Reach Us</Link>
       </button>
     </div>
     <div className='hero-banner-holder'>
