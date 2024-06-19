@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import hero_banner from "../assets/hero_banner.png"
 import hero_banner_mobile from "../assets/hero_banner_mobile.jpg"
 import { websites } from '../constants'
@@ -15,7 +16,7 @@ const Hero = () => (
     </div>
     <div className='btn-center hero-btn'>
       <button className='btn'>
-        <a className="btn-link" href='#'>Reach Us</a>
+        <Link className="btn-link" to="/touch">Reach Us</a>
       </button>
     </div>
     <div className='hero-banner-holder'>
