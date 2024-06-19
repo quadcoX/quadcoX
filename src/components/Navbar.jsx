@@ -35,7 +35,7 @@ const Navbar = () => {
                 <Link to={`/${nav.id}`} className='basic-font'>
                   {nav.title}
                 </Link>
-              </li>
+              </li> 
             ))}
           </ul>
         </div>
