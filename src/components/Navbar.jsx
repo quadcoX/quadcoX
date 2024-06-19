@@ -30,7 +30,7 @@ const Navbar = () => {
           <ul className='flex-c-c nav-wrapper'>
             {navLinks.map((nav, index) => (
               <li key={nav.id} className={index === navLinks.length - 1 ? '' : 'm-nav-link'}>
-                <a href={`#${nav.id}`} className='basic-font'>
+                <a href={`/${nav.id}`} className='basic-font'>
                   {nav.title}
                 </a>
               </li>
